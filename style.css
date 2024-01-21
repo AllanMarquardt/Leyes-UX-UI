@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
 
 :root{
     --fondo: #f4eae2;
     --fondo2: #ecdcd1;
     --texto: #34354e;
-
 }
 
 *{
@@ -13,4 +12,60 @@
     margin: 0;
     box-sizing: border-box;
     background-color: var(--fondo);
+    color: var(--texto);
+}
+
+/* Nav Bar */
+.header{
+    background-color: var(--fondo);
+}
+
+
+.header-top{
+    display: flex;
+    margin-bottom: 200px;
+    padding: 20px 270px;
+}
+
+.autor{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: right;
+    width: 100%;
+}
+
+/* Esenciales */
+.titulo{
+    font-family: 'DM Serif Display';
+    font-size: 70px;
+    line-height: 1.1;
+}
+
+.subtitulo{
+    font-family: 'DM Serif Display';
+    font-size: 36px;
+}
+
+.parrafo{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Header Body */
+.header-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 270px;
+}
+
+.hb-left{
+    max-width: 700px;
+}
+
+.hb-right img{
+    width: 300px;
 }
